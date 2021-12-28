@@ -13,14 +13,10 @@ import '../styles/overview.css';
 import '../styles/transactions.css';
 import '../styles/transactions-detail.css';
 import '../styles/edit-profile.css';
+import '../styles/navbar-log-in.css';
 import type { AppProps } from 'next/app';
-import { useEffect } from 'react';
-import AOS from 'aos';
 
 const MyApp = function ({ Component, pageProps }: AppProps) {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <>
       <head>
